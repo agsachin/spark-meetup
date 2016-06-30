@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2aaef43f-4a66-47c4-99e8-4149f75d2c9f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/BasicOperations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/FeederActor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaRedisAdvertisingStream.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingNewStateFull.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/MQTTStreaming.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jolbox_bonecp_0_8_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_parquet_hadoop_bundle_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_29_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jdo_jdo_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javolution_javolution_5_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_apache_log4j_extras_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_hydromatic_eigenbase_properties_1_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_calcite_avatica_1_2_0_incubating.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_calcite_core_1_2_0_incubating.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_calcite_linq4j_1_2_0_incubating.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mesos_mesos_shaded_protobuf_0_21_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_0_incubating.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_hive_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_0_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libfb303_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_2_7_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_api_jdo_3_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_core_3_2_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_datanucleus_datanucleus_rdbms_3_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_iq80_snappy_snappy_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalatest_scalatest_2_11_2_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_hive_hive_exec_1_2_1_spark2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_hive_hive_metastore_1_2_1_spark2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/NoSparkMqtt.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__antlr_antlr_2_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__aopalliance_aopalliance_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_clearspring_analytics_stream_2_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_esotericsoftware_minlog_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_fasterxml_jackson_module_jackson_module_scala_2_10_2_6_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_github_fommil_netlib_core_1_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_github_rwl_jtransforms_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_google_guava_guava_14_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_google_inject_guice_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_google_protobuf_protobuf_java_2_5_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_googlecode_javaewah_JavaEWAH_0_3_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_ning_compress_lzf_1_0_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_twitter_chill_2_10_0_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_twitter_chill_java_0_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_twitter_parquet_hadoop_bundle_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__com_univocity_univocity_parsers_2_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_beanutils_commons_beanutils_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_cli_commons_cli_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_codec_commons_codec_1_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_collections_commons_collections_3_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_configuration_commons_configuration_1_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_dbcp_commons_dbcp_1_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_digester_commons_digester_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_httpclient_commons_httpclient_3_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_io_commons_io_2_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_lang_commons_lang_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_logging_commons_logging_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_net_commons_net_2_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__commons_pool_commons_pool_1_5_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_netty_netty_3_8_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__io_netty_netty_all_4_0_29_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_annotation_javax_annotation_api_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_inject_javax_inject_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_jdo_jdo_api_3_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_servlet_javax_servlet_api_3_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_transaction_jta_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_validation_validation_api_1_1_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__javolution_javolution_5_5_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__jline_jline_2_12_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__joda_time_joda_time_2_9_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__log4j_apache_log4j_extras_1_2_17_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__log4j_log4j_1_2_17_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_hydromatic_eigenbase_properties_1_1_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_jpountz_lz4_lz4_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_razorvine_pyrolite_4_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_sf_opencsv_opencsv_2_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__net_sf_py4j_py4j_0_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_antlr_ST4_4_0_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_antlr_antlr4_runtime_4_5_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_antlr_antlr_runtime_3_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_antlr_stringtemplate_3_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_avro_avro_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_calcite_calcite_avatica_1_2_0_incubating_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_calcite_calcite_core_1_2_0_incubating_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_calcite_calcite_linq4j_1_2_0_incubating_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_commons_commons_compress_1_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_commons_commons_math3_3_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_commons_commons_math_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_curator_curator_client_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_curator_curator_framework_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_curator_curator_recipes_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_derby_derby_10_10_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_ivy_ivy_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_mesos_mesos_0_21_1_shaded_protobuf_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_column_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_common_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_encoding_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_format_2_3_0_incubating_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_hadoop_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_parquet_parquet_jackson_1_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_catalyst_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_core_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_graphx_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_hive_2_10_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_hive_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_mllib_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_mllib_local_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_sketch_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_tags_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_thrift_libfb303_0_9_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_thrift_libthrift_0_9_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_codehaus_janino_commons_compiler_2_7_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_codehaus_janino_janino_2_7_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_datanucleus_datanucleus_api_jdo_3_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_datanucleus_datanucleus_core_3_2_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_datanucleus_datanucleus_rdbms_3_2_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_iq80_snappy_snappy_0_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_javassist_javassist_3_18_1_GA_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_jodd_jodd_core_3_5_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_jpmml_pmml_model_1_2_15_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_jpmml_pmml_schema_1_2_15_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_json4s_json4s_ast_2_10_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_json4s_json4s_core_2_10_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_json4s_json4s_jackson_2_10_3_2_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_json_json_20090211_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_objenesis_objenesis_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_10_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scala_lang_scalap_2_10_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scalamacros_quasiquotes_2_10_2_0_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scalanlp_breeze_2_10_0_11_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scalanlp_breeze_macros_2_10_0_11_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scalatest_scalatest_2_10_2_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_spark_project_hive_hive_exec_1_2_1_spark2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_spark_project_hive_hive_metastore_1_2_1_spark2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_spark_project_spark_unused_1_0_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_spire_math_spire_2_10_0_7_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_spire_math_spire_macros_2_10_0_7_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_s3_0_8_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_tukaani_xz_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__oro_oro_2_0_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__stax_stax_api_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__xmlenc_xmlenc_0_52_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/java/SslUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/StockTickProducer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/src/main/scala/StructuredNetworkWordCount.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/TrySuccessFailure.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/java/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/src/main/scala/WindowOperations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/WindowOperations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/sac.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkStructuredStreaming.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/java/test.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_2_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_jboss_netty_netty_3_2_2_Final_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_4_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__unmanaged_sources_and_docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingTransform.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark_2.10-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterKafkaProducer$$anon$1$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterKafkaProducer$$anon$1$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterKafkaProducer$$anon$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterKafkaProducer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterKafkaProducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$3$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$main$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/org/apache/spark/examples/streaming/DirectKafkaStreaming.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-console-consumer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-console-producer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-consumer-offset-checker.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-consumer-perf-test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-mirror-maker.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-preferred-replica-election.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-producer-perf-test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-reassign-partitions.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-replay-log-producer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-replica-verification.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-run-class.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-server-start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-server-stop.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-simple-consumer-shell.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/kafka-topics.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-console-consumer.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-console-producer.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-consumer-offset-checker.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-consumer-perf-test.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-mirror-maker.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-preferred-replica-election.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-producer-perf-test.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-reassign-partitions.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-replay-log-producer.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-replica-verification.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-run-class.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-server-start.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-server-stop.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-simple-consumer-shell.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/kafka-topics.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/zookeeper-server-start.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/zookeeper-server-stop.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/windows/zookeeper-shell.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/zookeeper-server-start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/zookeeper-server-stop.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/bin/zookeeper-shell.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/consumer.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/producer.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/server.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/test-log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/tools-log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/config/zookeeper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/jopt-simple-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka-clients-0.8.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-scaladoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-test.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/log4j-1.2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/lz4-1.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/metrics-core-2.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/scala-library-2.10.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/slf4j-api-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/snappy-java-1.1.1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/zkclient-0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafka_2.10-0.8.2.0/libs/zookeeper-3.4.6.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__joda_time_joda_time_2_5_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__joda_time_joda_time_2_9_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__net_razorvine_pyrolite_4_4_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__net_razorvine_pyrolite_4_9_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__net_sf_py4j_py4j_0_8_2_1_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__net_sf_py4j_py4j_0_10_1_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_3_2_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_3_2_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_catalyst_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_catalyst_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_core_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_core_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_hive_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_apache_spark_spark_sql_2_10_2_0_0_SNAPSHOT_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_sql_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_sql_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_kafka_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_kafka_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_twitter_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_streaming_twitter_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_10_1_5_0_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_10_1_6_0_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_4_5_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_4_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_6_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_10_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_16_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_client_0_7_1_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_client_0_8_2_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_hdfs_0_7_1_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_hdfs_0_8_2_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_local_0_7_1_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_local_0_8_2_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_twitter4j_twitter4j_core_3_0_3_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_twitter4j_twitter4j_core_4_0_4_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_twitter4j_twitter4j_stream_3_0_3_jar.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_twitter4j_twitter4j_stream_4_0_4_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_1_7_jar.xml" afterPath="$PROJECT_DIR$/../StructuredStreamingDemo/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_4_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$$anonfun$6.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$$anonfun$7.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingStateFull$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingTransform$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingTransform$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$1.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$2.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$3.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$4.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$5.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$6.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/KafkaStreamingWindow$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$1.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$2.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$3.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreaming$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingRepartition$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingRepartition$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$$anonfun$4.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$$anonfun$5.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingStateFull$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingTransform$$anonfun$6.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingTransform$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingTransform$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/SocketStreamingTransform$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterStreaming$.class" afterPath="$PROJECT_DIR$/../SparkDemo/target/scala-2.10/classes/TwitterStreaming$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/.name" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/DirectKafkaStreaming.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/DirectKafkaStreaming.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingStateFull.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingStateFull.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingWindow.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/KafkaStreamingWindow.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreaming.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreaming.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingRepartition.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingRepartition.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingStateFull.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingStateFull.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingTransform.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/SocketStreamingTransform.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/TwitterKafkaProducer.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/TwitterKafkaProducer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/src/main/scala/TwitterStreaming.scala" afterPath="$PROJECT_DIR$/../SparkDemo/src/main/scala/TwitterStreaming.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/build.sbt" afterPath="$PROJECT_DIR$/../SparkDemo/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../SparkDemo/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_javadoc_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_javadoc_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_javadoc_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark$sources_javadoc_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/testspark/testspark_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/sbt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/modules/sparkdemo.iml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/modules/sparkdemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/../SparkDemo/target/resolution-cache/reports/testspark-testspark$sources_javadoc_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SparkDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SparkDemo/.idea/workspace.xml" />
+    </list>
+    <ignored path="sparkStructuredStreaming.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sparkStructuredStreaming" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="WindowOperations.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/WindowOperations.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StructuredNetworkWordCount.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="44" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicOperations.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/BasicOperations.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25510204">
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+              <folding>
+                <element signature="e#15#40#0" expanded="true" />
+                <element signature="e#888#927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/scala/WindowOperations.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/BasicOperations.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spark-structured-streaming" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spark-structured-streaming" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkStructuredStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BasicOperations">
+    <configuration default="false" name="StructuredNetworkWordCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="scala.StructuredNetworkWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicOperations" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="scala.BasicOperations" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sparkStructuredStreaming" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.StructuredNetworkWordCount" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BasicOperations" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.BasicOperations" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StructuredNetworkWordCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Scala Training/advanced/scalatrain" value="1456329110000" />
+        <entry key="$USER_HOME$/Desktop/Scala Training/fast-track-akka-scala" value="1448254838000" />
+        <entry key="$USER_HOME$/Desktop/Scala Training/scalatrain" value="1447825956000" />
+        <entry key="$PROJECT_DIR$/../../spark-db2" value="1467092728000" />
+        <entry key="$PROJECT_DIR$/../SparkDemo" value="1459241871000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2aaef43f-4a66-47c4-99e8-4149f75d2c9f" name="Default" comment="" />
+      <created>1467278802861</created>
+      <option name="number" value="Default" />
+      <updated>1467278802861</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38767123" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367.jar!/org/apache/spark/sql/SparkSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.703704">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5726496">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/WindowOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367.jar!/org/apache/spark/sql/Dataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.12820514">
+          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7948718">
+          <caret line="109" column="20" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.3/joda-time-2.9.3-sources.jar!/org/joda/time/DateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61403507">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.7719297">
+          <caret line="1705" column="6" selection-start-line="1705" selection-start-column="6" selection-end-line="1705" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367-sources.jar!/org/apache/spark/sql/streaming/DataStreamReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04385965">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0-SNAPSHOT/spark-sql_2.11-2.0.0-20160629.100246-367-sources.jar!/org/apache/spark/sql/functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="2819" column="0" selection-start-line="2819" selection-start-column="0" selection-end-line="2819" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/BasicOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25510204">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#40#0" expanded="true" />
+            <element signature="e#888#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

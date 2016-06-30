@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.spark:spark-tags_2.11:2.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.0.0-SNAPSHOT/spark-tags_2.11-2.0.0-20160629.095205-77.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.0.0-SNAPSHOT/spark-tags_2.11-2.0.0-20160629.095205-77-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-tags_2.11/2.0.0-SNAPSHOT/spark-tags_2.11-2.0.0-20160629.095205-77-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

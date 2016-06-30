@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.parquet:parquet-common:1.8.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.parquet/parquet-common/jars/parquet-common-1.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.parquet/parquet-common/docs/parquet-common-1.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.parquet/parquet-common/srcs/parquet-common-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
