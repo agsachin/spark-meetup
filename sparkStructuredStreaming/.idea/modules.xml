@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sparkStructuredStreaming.iml" filepath="$PROJECT_DIR$/sparkStructuredStreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-structured-streaming.iml" filepath="$PROJECT_DIR$/spark-structured-streaming.iml" />
     </modules>
   </component>
 </project>

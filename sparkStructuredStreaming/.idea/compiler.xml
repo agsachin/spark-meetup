@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sparkStructuredStreaming" />
+        <module name="spark-structured-streaming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sparkStructuredStreaming" target="1.5" />
+      <module name="spark-structured-streaming" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
