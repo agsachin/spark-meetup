@@ -1,9 +1,13 @@
 package scala
 
+import java.io.{File, PrintWriter}
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
+import java.util.concurrent.ConcurrentLinkedQueue
 
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{ForeachWriter, SparkSession}
+
+import scala.collection.mutable
 
 /**
  * Created by sachin on 6/30/16.
@@ -18,9 +22,8 @@ object BasicOperations {
 
     //    val host = args(0)
     //    val port = args(1).toInt
-    import org.apache.log4j.{Level, Logger}
-    Logger.getLogger("org").setLevel(Level.OFF)
-    Logger.getLogger("akka").setLevel(Level.OFF)
+//    Logger.getLogger("org").setLevel(Level.OFF)
+//    Logger.getLogger("akka").setLevel(Level.OFF)
     val spark = SparkSession
       .builder
       .master("local[*]")
@@ -56,7 +59,7 @@ object BasicOperations {
 
     val count =filtered.groupBy("dataType").count()
 
-    val query = windowedCount.writeStream
+    val query = printWindow.writeStream
       .outputMode("complete")
       .format("console")
       .start()
@@ -64,6 +67,13 @@ object BasicOperations {
     val query2 = windowedAverageSignal.writeStream
       .outputMode("complete")
       .format("console")
+      .start()
+
+    val test = windowedAverageSignal.repartition(2).select($"avg(signal)").as[Double]
+    test.printSchema()
+    test.writeStream
+      .outputMode("complete")
+      .foreach (new TestForeachWriter)
       .start()
 
     query.processAllAvailable()
@@ -88,5 +98,84 @@ object BasicOperations {
     // Running average signal for each device type
     //import org.apache.spark.sql.expressions.scalalang.typed._
     //ds.groupByKey(_.Type).agg(typed.avg(_.signal))    //
+  }
+}
+
+class MyForeach extends ForeachWriter[String]{
+  var writer = new PrintWriter(new File("/tmp/test.txt"))
+
+  override def open(partitionId: Long, version: Long): Boolean = {
+    writer = new PrintWriter(new File("/tmp/output.txt"))
+    true
+  }
+
+  override def process(value: String): Unit = {
+    writer.write(value.toString)
+  }
+
+  override def close(errorOrNull: Throwable): Unit = {
+    writer.close()
+  }
+}
+
+class MyConsoleForeach extends ForeachWriter[String]{
+
+  override def open(partitionId: Long, version: Long): Boolean = {
+    println(partitionId+"::"+version)
+    true
+  }
+
+  override def process(value: String): Unit = {
+    println(value)
+  }
+
+  override def close(errorOrNull: Throwable): Unit = {
+    println(errorOrNull.getMessage)
+  }
+}
+object ForeachSinkSuite {
+
+  trait Event
+
+  case class Open(partition: Long, version: Long) extends Event
+
+  case class Process[T](value: T) extends Event
+
+  case class Close(error: Option[Throwable]) extends Event
+
+  private val _allEvents = new ConcurrentLinkedQueue[Seq[Event]]()
+
+  def addEvents(events: Seq[Event]): Unit = {
+    _allEvents.add(events)
+  }
+
+  def allEvents(): Seq[Seq[Event]] = {
+    _allEvents.toArray(new Array[Seq[Event]](_allEvents.size()))
+  }
+
+  def clear(): Unit = {
+    _allEvents.clear()
+  }
+}
+
+/** A [[ForeachWriter]] that writes collected events to ForeachSinkSuite */
+class TestForeachWriter extends ForeachWriter[Double] {
+  ForeachSinkSuite.clear()
+
+  private val events = mutable.ArrayBuffer[ForeachSinkSuite.Event]()
+
+  override def open(partitionId: Long, version: Long): Boolean = {
+    events += ForeachSinkSuite.Open(partition = partitionId, version = version)
+    true
+  }
+
+  override def process(value: Double): Unit = {
+    events += ForeachSinkSuite.Process(value)
+  }
+
+  override def close(errorOrNull: Throwable): Unit = {
+    events += ForeachSinkSuite.Close(error = Option(errorOrNull))
+    ForeachSinkSuite.addEvents(events)
+    events.foreach(println)
   }
 }
