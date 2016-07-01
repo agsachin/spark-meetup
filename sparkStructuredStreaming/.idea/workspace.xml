@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e76cb8-3b22-4bca-a283-bf9c53279265" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/BasicOperations.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/WindowOperations.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/BasicOperations$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/BasicOperations$$typecreator1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/BasicOperations$$typecreator2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/BasicOperations$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/BasicOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Close$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Close.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Event.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Open$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Open.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Process$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite$Process.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/ForeachSinkSuite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/MyConsoleForeach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/MyForeach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/TestForeachWriter$$anonfun$close$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scala/TestForeachWriter.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount$.class" afterPath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount.class" afterPath="$PROJECT_DIR$/target/classes/scala/StructuredNetworkWordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/StructuredNetworkWordCount.scala" />
     </list>
     <ignored path="spark-structured-streaming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -604,6 +575,13 @@
       <option name="number" value="Default" />
       <updated>1467384597653</updated>
     </task>
+    <task id="LOCAL-00001" summary="Separated to individual programs">
+      <created>1467389032334</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467389032334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -636,6 +614,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Separated to individual programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separated to individual programs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
